@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>5 Sepatu Basket Terbaik untuk Pemula - HoopsReview</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">🏀 HoopsReview</a></h1>
+  </header>
+
+  <main>
+    <article class="full-post">
+      <h1>5 Sepatu Basket Terbaik untuk Pemula di 2024</h1>
+      <p class="meta">📅 1 Oktober 2024 | 🏷️ Review, Sepatu</p>
+      <img src="https://via.placeholder.com/800x400/ff6b35/ffffff?text=Sepatu+Basket" alt="Sepatu Basket">
+
+      <p>Memilih sepatu basket untuk pemula tidak harus mahal. Berikut 5 rekomendasi terbaik:</p>
+      <ol>
+        <li><strong>Nike Air Precision</strong> - Ringan dan nyaman, harga terjangkau</li>
+        <li><strong>Adidas Pro Bounce</strong> - Daya cengkeram baik untuk indoor</li>
+        <li><strong>Under Armour Jet</strong> - Cocok untuk pemain cepat</li>
+        <li><strong>Puma Clyde Court</strong> - Desain stylish, bantalan empuk</li>
+        <li><strong>Reebok Classic</strong> - Pilihan ekonomis untuk latihan</li>
+      </ol>
+
+      <p>Pastikan memilih ukuran yang pas dan sesuai bentuk kaki Anda.</p>
+    </article>
+
+    <!-- FITUR KOMENTAR (menggunakan Disqus) -->
+    <section class="comments">
+      <h2>💬 Komentar</h2>
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = 'post1';
+        };
+        (function() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://USERNAME.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Aktifkan JavaScript untuk melihat komentar.</noscript>
+    </section>
+
+    <p><a href="index.html" class="btn">← Kembali ke Home</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HoopsReview</p>
+  </footer>
+</body>
+</html>
