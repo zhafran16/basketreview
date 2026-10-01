@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HoopsReview - Panduan & Review Peralatan Bola Basket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏀 HoopsReview</h1>
+    <p>Panduan & Review Peralatan Bola Basket Terlengkap</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="posts">
+      <h2>Artikel Terbaru</h2>
+
+      <article class="post-card">
+        <h3><a href="post1.html">5 Sepatu Basket Terbaik untuk Pemula di 2024</a></h3>
+        <p class="meta">📅 1 Oktober 2024 | 🏷️ Review, Sepatu</p>
+        <img src="https://via.placeholder.com/600x300/ff6b35/ffffff?text=Sepatu+Basket" alt="Sepatu Basket">
+        <p>Panduan lengkap memilih sepatu basket untuk pemula, mulai dari harga, kenyamanan, hingga daya cengkeram...</p>
+        <a href="post1.html" class="btn">Baca Selengkapnya →</a>
+      </article>
+
+      <article class="post-card">
+        <h3><a href="post2.html">Cara Memilih Bola Basket Sesuai Standar FIBA</a></h3>
+        <p class="meta">📅 28 September 2024 | 🏷️ Panduan, Bola</p>
+        <img src="https://via.placeholder.com/600x300/004e89/ffffff?text=Bola+Basket" alt="Bola Basket">
+        <p>Ukuran, berat, dan material bola basket yang sesuai standar FIBA untuk latihan dan pertandingan...</p>
+        <a href="post2.html" class="btn">Baca Selengkapnya →</a>
+      </article>
+
+      <article class="post-card">
+        <h3><a href="post3.html">Perbandingan Ring Portable untuk Latihan di Rumah</a></h3>
+        <p class="meta">📅 25 September 2024 | 🏷️ Review, Ring</p>
+        <img src="https://via.placeholder.com/600x300/1a936f/ffffff?text=Ring+Portable" alt="Ring Portable">
+        <p>Bandingkan 3 ring portable terbaik untuk latihan di rumah berdasarkan harga dan daya tahan...</p>
+        <a href="post3.html" class="btn">Baca Selengkapnya →</a>
+      </article>
+
+      <article class="post-card">
+        <h3><a href="post4.html">Tips Merawat Jersey Basket agar Tahan Lama</a></h3>
+        <p class="meta">📅 20 September 2024 | 🏷️ Tips, Jersey</p>
+        <img src="https://via.placeholder.com/600x300/f4a261/ffffff?text=Jersey+Basket" alt="Jersey Basket">
+        <p>Cara mencuci, mengeringkan, dan menyimpan jersey basket agar tetap awet dan warnanya tidak pudar...</p>
+        <a href="post4.html" class="btn">Baca Selengkapnya →</a>
+      </article>
+    </section>
+
+    <aside>
+      <h3>🏷️ Label</h3>
+      <ul class="labels">
+        <li><a href="#">Review (2)</a></li>
+        <li><a href="#">Panduan (1)</a></li>
+        <li><a href="#">Tips (1)</a></li>
+        <li><a href="#">Sepatu (1)</a></li>
+        <li><a href="#">Bola (1)</a></li>
+        <li><a href="#">Ring (1)</a></li>
+        <li><a href="#">Jersey (1)</a></li>
+      </ul>
+
+      <h3 id="tentang">Tentang Blog</h3>
+      <p>HoopsReview adalah blog yang membahas review dan panduan peralatan bola basket untuk pemula hingga profesional.</p>
+
+      <h3 id="kontak">Kontak</h3>
+      <p>📧 email@hoopsreview.com</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HoopsReview. Dibuat dengan ❤️ untuk pecinta basket.</p>
+  </footer>
+</body>
+</html>
